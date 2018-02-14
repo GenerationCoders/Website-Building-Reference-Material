@@ -1,0 +1,40 @@
+/*this is the structure of css:
+
+name-of-element-being-targeted {
+	property: style;
+}
+
+all classes (like class="heading") start with a period
+all ids (like id="me") start with a #
+
+use classes for duplicate elements, or for styles that youre going to reuse.
+use ids for unique elements or unique styles.
+classes and ids do the same thing!!
+*/
+
+
+.heading {
+	background-color: blue;
+}
+
+#special-heading {
+	background-color: yellow;
+}
+
+/*the below styles makes ALL list elements blue*/
+li {
+	color: blue;
+}
+
+/* the below code changes the image size. */
+.image {
+	height: 50px;
+	/*width: 50px;
+	height: 50%;
+	^^ those two are also examples of what you can do to change the image size.*/
+}
+
+/*the below code styles ONLY the <h1> tag that is inside of the heading tag.*/
+.heading h1 {
+	text-decoration: underline;
+}
