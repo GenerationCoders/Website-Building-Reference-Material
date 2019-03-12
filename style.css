@@ -29,7 +29,8 @@ li {
 /* the below code changes the image size. */
 .image {
 	height: 50px;
-	/*width: 50px;
+	/*
+	width: 50px;
 	height: 50%;
 	^^ those two are also examples of what you can do to change the image size.*/
 }
